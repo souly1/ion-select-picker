@@ -74,7 +74,7 @@ Valid values:
  * `isDrawerOpen` - is the drawer currently open or not
 
 ## Purchase Link
-TBD
+[ion-select-picker](https://gum.co/vFEVL)
 
 ## What's included
 Upon purchase you'll receive a minimized js file and minimized css for immediate use
