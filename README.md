@@ -39,6 +39,7 @@ You can now use the directive, add the attribute to your existing DOM element in
 - `ng-value` (optional) - If using objects instead of string values in the component define attribut of object that will be displayed as an option and as ngModel value
 - `ng-change` (optional) - method called after the value has been set
 - `sensitivity (optional)` - Define the scroll sensitivity
+- `openPartScreenDrawerBarrier (optional)` - define the device height in pixels where any value higher than it will open drawer partially and not full screen. use 0 to always open as parital drawer. default is 420px
 - `ngDefault` (optional) - if ng-model is null then the selector drawer opens on this item as selected
 - `isClickSelect` (optional) - if set to true, when user clicks element it will be selected and drawer closed. Default is false
 - `control` (optional) - control element to control directive from outside (see notes for details)
