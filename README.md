@@ -36,7 +36,7 @@ You can now use the directive, add the attribute to your existing DOM element in
 - `items` - an array of items to display as options
 - `id (optional)` - Give a unique id to the bound element and drawer will be named {{id}}-drawer
 - `ng-model` (optional) - Define the model to bind the selected value to. the value of the model is displayed once drawer is open
-- `ng-model-display-value` (optional) - Define how to display the value in ngModel, in case it deffers from actual model or ngValue
+- `ng-model-display-value` (optional) - Define how to display the value in ngModel, in case it differs from actual model or ngValue
 - `ng-value` (optional) - If using objects instead of string values in the component define attribute of object that will be displayed as an option. If no ngModelDisplayValue set will also be used as disaplayed ngModel value
 - `ng-change` (optional) - method called after the value has been set
 - `sensitivity (optional)` - Define the scroll sensitivity
