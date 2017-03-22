@@ -45,6 +45,7 @@ You can now use the directive, add the attribute to your existing DOM element in
 - `isClickSelect` (optional) - if set to true, when user clicks element it will be selected and drawer closed. Default is false
 - `control` (optional) - control element to control directive from outside (see notes for details)
 - `hasClear` (optional) - Whether drawer has clear button or not, if does value set to zero
+- `deleteOnClose` (optional) - Whether to remove DOM elements and event registration on close of drawer. Better user with many drawers that have a large number of elements Default is false
 - `bindingStrategy` (optional) - Use different binding strategies to deal with large element list lag when opening drawer, can be set to one of the values: 'early'/'stages'/'regular' (see below). Default is "regular"
 - `onSet` (optional) - event fired when set button clicked, model is set value. Has two params oldValue and newValue, If returning false from method set canceled. IMPORTANT: only pass method name without brackets
 - `onCancel` (optional) - event fired when cancel button clicked. IMPORTANT: only pass method name without brackets
@@ -79,6 +80,7 @@ Valid values:
  * `closeDrawer` - closes the drawer
  * `getCurrentSelection` - returns the current value displayed as selected in select drawer
  * `isDrawerOpen` - is the drawer currently open or not
+ * `prepareDom` - use to manually issue a creation of DOM elements which can be costly. Will do nothing if DOM element already exists. Do not use with 'early' binding strategy
 
 ## Purchase Link
 [ion-select-picker](https://gum.co/vFEVL)
